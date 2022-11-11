@@ -18,4 +18,4 @@
 
 ![](./assets/screenshot-password-generator.png)
 
-[Deployed Application]()
+[Deployed Application](https://stran0430.github.io/password-generator/)
