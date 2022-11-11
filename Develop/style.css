@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Style */
+
 html,
 body,
 .wrapper {
@@ -22,6 +24,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+/* Main Heading */
 
 header {
   text-align: center;
@@ -29,7 +32,7 @@ header {
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-
+/* Styling card */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -49,10 +52,13 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
+/* Password text area */
 
 .card-body {
   min-height: 100px;
 }
+
+/* Footer Section */
 
 .card-footer {
   text-align: center;
@@ -71,6 +77,7 @@ header {
   display: block;
   clear: both;
 }
+/* Button style */
 
 .btn {
   border: none;
@@ -97,6 +104,8 @@ button[disabled] {
   float: right;
 }
 
+/* Password text area */
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,6 +126,8 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+
+/* media query section */
 
 @media (max-width: 690px) {
   .btn {
